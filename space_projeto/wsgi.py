@@ -1,5 +1,5 @@
 """
-WSGI config for alura_space_projeto project.
+WSGI config for space_projeto project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "alura_space_projeto.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "space_projeto.settings")
 
 application = get_wsgi_application()
